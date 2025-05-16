@@ -7,9 +7,7 @@ import {
     Mic,
     Music,
     Play,
-    Settings,
     Smartphone,
-    Star,
     Trophy,
     Users
 } from 'lucide-react';
@@ -28,6 +26,21 @@ export default function Welcome() {
             <Head title="Welcome">
                 <link rel="preconnect" href="https://fonts.bunny.net" />
                 <link href="https://fonts.bunny.net/css?family=instrument-sans:400,500,600" rel="stylesheet" />
+                <meta name="description" content="VoicesVerse - The Ultimate Karaoke Experience" />
+                <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+                <meta name="theme-color" content="#59168b" />
+                <meta property="og:title" content="VoicesVerse - The Ultimate Karaoke Experience" />
+                <meta property="og:description" content="Join the ultimate karaoke platform and unleash your inner star!" />
+                <meta property="og:image" content="og-image.png" />
+                <meta property="og:url" content="https://voicesverse.ivessamuel.tech" />
+                <meta property="og:type" content="website" />
+                <meta property="og:site_name" content="VoicesVerse" />
+                <meta name="twitter:card" content="summary_large_image" />
+                <meta name="twitter:title" content="VoicesVerse - The Ultimate Karaoke Experience" />
+                <meta name="twitter:description" content="Join the ultimate karaoke platform and unleash your inner star!" />
+                <meta name="twitter:image" content="og-image.png" />
+                <meta name="twitter:site" content="@VoicesVerse" />
+                <meta name="twitter:creator" content="@ives_dev" />
             </Head>
             <div className="min-h-screen bg-gradient-to-b from-purple-900 via-violet-800 to-black">
                 <nav className="border-b border-white/10 bg-black/20 backdrop-blur-sm fixed w-full z-50">
