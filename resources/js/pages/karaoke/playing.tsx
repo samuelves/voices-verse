@@ -878,11 +878,7 @@ export default function karaokePlaying() {
         } catch (error) {
             console.error('Error accessing microphone:', error);
             toast('Microphone access denied', {
-                description: 'Please allow microphone access to use the scoring feature.',
-                action: {
-                    label: 'Denied',
-                    onClick: () => console.log('Denied'),
-                },
+                description: 'Please allow microphone access to use the scoring featur\uijjjjjjjjjjjjjj=
             });
         }
     };
